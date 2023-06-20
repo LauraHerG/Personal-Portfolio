@@ -1,57 +1,52 @@
 <%- include('../partials/header.ejs') %>
 <%- include('../partials/nav_bar.ejs') %>
 
-<div class="card text-bg-primary mb-3" style="max-width: 18rem;">
-    <div class="card-header">Header</div>
-    <div class="card-body">
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    </div>
-  </div>
-  <div class="card text-bg-info mb-3" style="max-width: 18rem;">
-    <div class="card-header">Header</div>
-    <div class="card-body">
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    </div>
-  </div>
+<div>
+  <br>
+  <h2>My Projects</h2>
+  <br>
+</div>
 
-<div class="row row-cols-1 row-cols-md-2 g-4">
-    <div class="col">
-      <div class="card">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
+
+<div  class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card">
+      <img style="max-width: 25rem;" style="width: 100% !important; height:100% !important;" src="/images/bugGame.png" class="card-img-top mx-auto" alt="Bus samsher videogame snapshot">
+      <div class="card-body">
+        <h5 class="card-title">Bug Smasher videogame</h5>
+        <p class="card-text">This project is a simple game implemented using JavaScript and HTML canvas. 
+          The goal of the game is to click on a fairy that randomly moves around the canvas. Each time the
+          fairy is clicked, the player earns a point and the fairy's speed increases.</p>
       </div>
     </div>
   </div>
+  <div class="col">
+    <div class="card">
+      <img src="/images/MultipTable.png" style="width: 100% !important; height:100% !important;" class="card-img-top" alt="Multiplication table project snapshotx">
+      <div class="card-body">
+        <h5 class="card-title">Multiplication table</h5>
+        <p class="card-text">This multiplication table project is a JavaScript function that dynamically generates a
+          multiplication table based on user input. By providing the desired number of rows and columns,
+          the function creates a table structure in HTML and fills it with the multiplication results of the corresponding
+          row and column indices. This allows users to visualize and easily reference multiplication facts in a structured format.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="/images/FormProject.png" style="width: 100% !important; height:100% !important;" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Centennial College evaluation form</h5>
+        <p class="card-text">This project is an evaluation form for a Continuing Education course and instructor. The form
+          allows users to provide feedback on various aspects of the course and the instructor's performance. It follows a 
+          structured layout and uses form elements to gather user responses.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+  <br>
+  <br>
 
-  
+
 <%- include('../partials/footer.ejs') %>
