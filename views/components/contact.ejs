@@ -1,44 +1,68 @@
+<!-- Including partials -->
 <%- include('../partials/header.ejs') %>
 <%- include('../partials/nav_bar.ejs') %>
 
-<br>
-<h2>Contact</h2>
-<br>
+  <br>
+  <h2>Contact</h2>
+  <br>
 
-<div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Name</label>
-          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
-        </div>
-      </div>
-      <div class="col">
-        <div class="mb-3">
-          <label for="exampleFormControlInput2" class="form-label">Phone number</label>
-          <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="">
-        </div>
-      </div>
-    </div>
-  
-    <div class="row">
-      <div class="col">
-        <div class="mb-3">
-          <label for="exampleFormControlInput3" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="name@example.com">
-        </div>
-      </div>
-    </div>
-  
-    <div class="row">
-      <div class="col">
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-      </div>
-    </div>
-  </div>
 
+  <div class="container">
+
+    <!-- Contact information card within container -->
+    <div style="width: 500px; margin: 0 auto;" class="card">
+      <h5 class="card-header">Please fill out the form below for a faster reply!</h5>
+      <div class="card-body">
+        <h5 class="card-title"> </h5>
+        <p class="card-text"> Laura Hernandez
+          <br>
+          Phone: 4372607544
+          <br>
+          email: laura.cata.hernandez08@gmail.com
+        </p>
+      </div>
+    </div>
+<br>
+<br>
+<!-- Form using Bootsrap classes -->
+      <div class="row">
+        <div class="col">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+          </div>
+        </div>
+        <div class="col">
+          <div class="mb-3">
+            <label for="exampleFormControlInput2" class="form-label">Phone number</label>
+            <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="">
+          </div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="col">
+          <div class="mb-3">
+            <label for="exampleFormControlInput3" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="name@example.com">
+          </div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="col">
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </div>   
+        
+        <!-- Event handler to redirect user to Home section after submitting form -->
+          <button onclick="window.location.href='/'" type="submit" class="btn btn-secondary btn-sm">Submit</button>
+      </div>
+    </div>
+<br>
+<br>
+<br>
 
 <%- include('../partials/footer.ejs') %>

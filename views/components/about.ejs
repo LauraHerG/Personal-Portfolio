@@ -1,13 +1,15 @@
-<%- include('../partials/header.ejs') %>
+<!-- Including partials -->
+<%- include('../partials/header.ejs') %> 
 <%- include('../partials/nav_bar.ejs') %>
 
+<!-- Container to frame puctures and mission statement -->
 <div class="container">
     <br>
     <h2>About Me</h2>
     <br>
     <div class="about-section">
       <div class="about-image">
-        <img src="../images/me.JPG" alt="Your Picture">
+        <img src="../images/me.JPG" alt="My Picture">
       </div>
       <div class="about-content" >
         <p>
@@ -15,12 +17,19 @@
           in the software engineering technitian program at Centennial college. I enjoy working with teams
           and doing collaborative work. My favourite coding languages are java, C#, and JavaScript. 
         </p> 
-
-        <a href="/images/CV.pdf" class="resume-link"><i class="fa-solid fa-file-arrow-down"></i></a>
+<!-- Link to view my resume -->
+        <a style="color: black;" href="/images/CV.pdf" class="resume-link">View Resume</a>
         
       </div>
     </div>
 </div>
+
+<br>
+<br>
+<br>
+
+
+<%- include('../partials/footer.ejs') %>
 
 
 

@@ -1,7 +1,16 @@
+/* 
+Personal Portfolio, Assignment 1
+Laura Hernandes 
+301099128
+21/06/2023 
+*/
+
+/* Sets the font and font size for the entire page. */
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+/* Sets the font and font size for the entire page. */  
 a {
   color: #252642;
 }
@@ -26,19 +35,29 @@ p {
   margin-right: 10px;
 }
 
+
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
 }
 
+/* Style for images i  the Projects view */
+.card-img-top {
+  width: 100% !important;
+  height: 450px !important; /* Adjust the height as desired */
+  object-fit: cover !important;
+}
+
+/* All below are for the About section to adjust content. */
 .about-section {
   display: flex;
   align-items: center;
 }
 
 .about-image {
-  flex: 1;
+  flex: 0 0 50%;
+  margin-right: -217px; 
 }
 
 .about-image img {
@@ -56,6 +75,8 @@ p {
   font-size: 16px;
   line-height: 1.5;
 }
+
+
 
 
 
