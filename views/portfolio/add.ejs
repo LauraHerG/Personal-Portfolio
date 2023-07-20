@@ -1,0 +1,24 @@
+<!-- Including partials -->
+<%- include('../partials/header.ejs') %>
+<%- include('../partials/nav_bar.ejs') %>
+ 
+<main class="container">
+    <form class="form" method="POST">
+        <div class="form-group">
+          <label for="pname">Project Name:</label>
+          <input type="text" class="form-control" id="pname" name="pname">
+        </div>
+        <div class="form-group">
+            <label for="pcompany">Project Company:</label>
+            <input type="text" class="form-control" id="pcompany" name="pcompany">
+        </div>
+        <div class="form-group">
+            <label for="pinfo">Project information:</label>
+            <input type="text" class="form-control" id="pinfo" name="pinfo">
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</main>
+
+<%- include('../partials/footer.ejs') %>
